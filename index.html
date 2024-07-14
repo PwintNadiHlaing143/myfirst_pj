@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#" class="logo-name">
+          <i class="bi bi-egg-fried"></i>FoodDelivery
+        </a>
+      </div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menubtn">
+        <i class="bi bi-list"></i>
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#restaurant">Restaurants</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#login" class="login">Login</a></li>
+        </ul>
+        <label for="menu-toggle" class="closebtn">
+          <i class="bi bi-x"></i>
+        </label>
+      </nav>
+    </header>
+    <!-- home contact start -->
+    <section class="home-contact">
+      <div class="container">
+        <h1 class="pagetitle">
+          Best <span class="span">Food Delivery</span> Service
+        </h1>
+        <p>Within a few clicks,find meals that are accessible near you</p>
+        <div class="search-box">
+          <div class="item1">
+            <a href="#" class="btn active">
+              <i class="bi bi-bicycle"></i>Delivery</a
+            >
+            <a href="#"><i class="bi bi-bag-check"></i>Pickup</a>
+          </div>
+          <hr />
+          <div class="search">
+            <div class="search-area">
+              <i class="bi bi-geo-alt"></i>
+              <input
+                type="search"
+                class="search-input"
+                placeholder="Find food"
+              />
+            </div>
+            <form action="#">
+              <a href="#" class="btn search-btn"
+                ><i class="bi bi-search"></i>Search</a
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home contact end -->
+    <!-- ==========favorite-food-daily-partner start========== -->
+    <section class="favorite-food-daily-partner">
+      <div class="container">
+        <h1 class="title">Your Favorite Food Daily Partner</h1>
+        <div class="partner">
+          <div class="card1">
+            <img src="./asset/img/phonedeli.png" alt="EasyToOrder" />
+            <h2>Easy To Order</h2>
+            <p>
+              You only need a few steps in<br />
+              ordering food
+            </p>
+          </div>
+          <div class="card2">
+            <img src="./asset/img/Take Away-rafiki 1.png" alt="motocycle" />
+            <h2>Fastest Delivery</h2>
+            <p>
+              Delivery that is always ontime<br />
+              even faster
+            </p>
+          </div>
+          <div class="card3">
+            <img src="./asset/img/Waiters-rafiki 1.png" alt="BestQuality" />
+            <h2>Best Quality</h2>
+            <p>Not Only fast for us quality is <br />also number one</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========customer feedback start========== -->
+    <section class="customer-feedback">
+      <h1 class="title">Customer Feedbacks</h1>
+      <div class="container">
+        <div class="feedbacks">
+          <div class="user-card">
+            <div class="user">
+              <img src="./asset/img/user.png" alt="user1" class="user-img" />
+              <div>
+                <h3>Alice</h3>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.saepe
+              optio eveniet vitae!
+            </p>
+          </div>
+          <div class="user-card">
+            <div class="user">
+              <img src="./asset/img/user.png" alt="user2" class="user-img" />
+              <div>
+                <h3>Arina</h3>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.saepe
+              optio eveniet vitae!
+            </p>
+          </div>
+          <div class="user-card">
+            <div class="user">
+              <img src="./asset/img/user.png" alt="user3" class="user-img" />
+              <div>
+                <h3>User8756</h3>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.saepe
+              optio eveniet vitae!
+            </p>
+          </div>
+        </div>
+        <div class="test">
+          <a href="#" class="btn viewall-btn">View All ></a>
+        </div>
+      </div>
+    </section>
+    <!-- ==========customer feedback end========== -->
+    <!-- ==========feature restaurants start ========== -->
+    <section class="feature-restaurants" id="restaurant">
+      <h1>Featured Restaurants</h1>
+      <div class="container">
+        <div class="feacture">
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./asset/img/food1.png" alt="image1" />
+              <div class="menu-btn">
+                <a href="#" class="btn discount"
+                  ><i class="bi bi-tag-fill"></i>20% off</a
+                >
+                <a href="#" class="btn fast"
+                  ><i class="bi bi-clock-fill"></i>Fast</a
+                >
+              </div>
+            </div>
+            <div class="shop">
+              <img
+                src="./asset/img/shop1.png"
+                alt="shop1"
+                class="shopLogo-img"
+              />
+              <div class="shopName">
+                <h3>Food World</h3>
+                <i class="bi bi-star-fill"></i>46
+              </div>
+            </div>
+            <div>
+              <a href="#" class="btn open-tomorrow">Opens tomorrow</a>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./asset/img/food2.png" alt="image2" />
+              <div class="menu-btn">
+                <a href="#" class="btn discount"
+                  ><i class="bi bi-tag-fill"></i>20% off</a
+                >
+                <a href="#" class="btn fast"
+                  ><i class="bi bi-clock-fill"></i>Fast</a
+                >
+              </div>
+            </div>
+            <div class="shop">
+              <img
+                src="./asset/img/shop2.png"
+                alt="shop2"
+                class="shopLogo-img"
+              />
+              <div class="shopName">
+                <h3>Pizzahub</h3>
+                <i class="bi bi-star-fill"></i>46
+              </div>
+            </div>
+            <div><a href="#" class="btn open-tomorrow">Opens tomorrow</a></div>
+          </div>
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./asset/img/food3.png" alt="image3" />
+              <div class="menu-btn">
+                <a href="#" class="btn discount"
+                  ><i class="bi bi-tag-fill"></i>20% off</a
+                >
+                <a href="#" class="btn fast"
+                  ><i class="bi bi-clock-fill"></i>Fast</a
+                >
+              </div>
+            </div>
+            <div class="shop">
+              <img
+                src="./asset/img/shop3.png"
+                alt="shop3"
+                class="shopLogo-img"
+              />
+              <div class="shopName">
+                <h3>Food World</h3>
+                <i class="bi bi-star-fill"></i>46
+              </div>
+            </div>
+            <div><a href="#" class="btn open-now">Opens now</a></div>
+          </div>
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./asset/img/food4.png" alt="image4" />
+              <div class="menu-btn">
+                <a href="#" class="btn discount"
+                  ><i class="bi bi-tag-fill"></i>20% off</a
+                >
+                <a href="#" class="btn fast"
+                  ><i class="bi bi-clock-fill"></i>Fast</a
+                >
+              </div>
+            </div>
+            <div class="shop">
+              <img
+                src="./asset/img/shop4.png"
+                alt="shop4"
+                class="shopLogo-img"
+              />
+              <div class="shopName">
+                <h3>Food World</h3>
+                <i class="bi bi-star-fill"></i>46
+              </div>
+            </div>
+            <div><a href="#" class="btn open-now">Opens now</a></div>
+          </div>
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./asset/img/food5.png" alt="image5" />
+              <div class="menu-btn">
+                <a href="#" class="btn discount"
+                  ><i class="bi bi-tag-fill"></i>20% off</a
+                >
+                <a href="#" class="btn fast"
+                  ><i class="bi bi-clock-fill"></i>Fast</a
+                >
+              </div>
+            </div>
+            <div class="shop">
+              <img
+                src="./asset/img/shop5.png"
+                alt="shop5"
+                class="shopLogo-img"
+              />
+              <div class="shopName">
+                <h3>Kuakata Fried Chicken</h3>
+                <i class="bi bi-star-fill"></i>46
+              </div>
+            </div>
+            <div><a href="#" class="btn open-now">Opens now</a></div>
+          </div>
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./asset/img/food6.png" alt="image6" />
+              <div class="menu-btn">
+                <a href="#" class="btn discount"
+                  ><i class="bi bi-tag-fill"></i>20% off</a
+                >
+                <a href="#" class="btn fast"
+                  ><i class="bi bi-clock-fill"></i>Fast</a
+                >
+              </div>
+            </div>
+            <div class="shop">
+              <img
+                src="./asset/img/shop6.png"
+                alt="shop6"
+                class="shopLogo-img"
+              />
+              <div class="shopName">
+                <h3>Red Square</h3>
+                <i class="bi bi-star-fill"></i>46
+              </div>
+            </div>
+            <div><a href="#" class="btn open-now">Opens now</a></div>
+          </div>
+        </div>
+        <div class="test">
+          <a href="#" class="btn viewall-btn">View All ></a>
+        </div>
+      </div>
+    </section>
+    <!-- ==========feature restaurants end ========== -->
+    <!-- ==========contact location start========== -->
+    <section class="contact-location" id="location">
+      <h1>Treat Yourself With Your Favorite Foods</h1>
+      <div class="container">
+        <div class="first-container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+            veritatis, mollitia adipisci ullam voluptates quod ipsa sit ea vel
+            laudantium amet quo suscipit nihil sapiente officia incidunt ducimus
+            tenetur animi.
+          </p>
+        </div>
+
+        <div class="second-container">
+          <div class="left-container">
+            <h2>Available Restaurants Near You</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              molestiae sequi sit cumque consectetur provident non?
+            </p>
+            <form action="#">
+              <input
+                type="search"
+                name=""
+                id=""
+                class="location"
+                placeholder="Location"
+              />
+              <a href="#" class="btn search-btn search1">Search</a>
+            </form>
+          </div>
+
+          <div class="right-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118427.18160613731!2d95.9934222824145!3d21.940339363589285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6d23f0d27411%3A0x24146be01e4e5646!2sMandalay!5e0!3m2!1sen!2smm!4v1720184037660!5m2!1sen!2smm"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========contact location end========== -->
+    <!-- ==========footer start========= -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="row">
+          <div class="div1">
+            <div class="logo logo-footer">
+              <a href="#" class="logo-name"
+                ><i class="bi bi-egg-fried"></i>FoodDelivery</a
+              >
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              dolores illum autem vitae, non dignissimos deserunt commodi qui id
+              omnis ut deserunt cupiditate quae perferendis, dignissimos
+              voluptatibus illum rem obcaecati a.
+            </p>
+            <div class="media">
+              <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <ul>
+              <li><a href="#">Company</a><br /></li>
+              <li><a href="#">Partnership</a><br /></li>
+              <li><a href="#">Network</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li><a href="#">Blogs</a><br /></li>
+              <li><a href="#">Channels</a><br /></li>
+              <li><a href="#">Sponsors</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li><a href="#">Contact Us</a><br /></li>
+
+              <li><a href="#">Privacy Policy</a><br /></li>
+
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- =========footer end========= -->
+  </body>
+</html>
